@@ -13,7 +13,7 @@ public class ChatServer {
     }
 
     public static void main(String[] args) {
-        new ChatServer(8080).run();
+        new ChatServer(8000).run();
     }
     public void run(){
         EventLoopGroup bossgroup = new NioEventLoopGroup();
